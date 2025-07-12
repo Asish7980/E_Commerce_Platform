@@ -16,18 +16,17 @@ A full-featured e-commerce site for a local merchant with product browsing, cart
 
 ### Successful
 ![Successful](screenshots/successful.jpg) 
----
+
 
 ## ✅ Features
-
+```
 - Browse products with images, names, prices, and descriptions  
 - Product detail pages  
-- Shopping cart: add/remove, item count, and total cost  
-- Simple checkout flow (no payment gateway yet)  
+- Shopping cart: add/remove, item count, and total cost   
 - Products stored in **MongoDB** – dynamic loading and management  
 - Responsive layout for desktop and mobile
+```
 
----
 
 ## 🛠️ Tech Stack
 
@@ -39,57 +38,55 @@ A full-featured e-commerce site for a local merchant with product browsing, cart
 | Others     | Mongoose for ORM         |
 | Tools      | Postman, Prettier, ESLint|
 
----
+
 
 
 ## 🚀 Getting Started
 
 1. **Clone the repo:**
-   ```bash
+   ```
    git clone https://github.com/Asish7980/PRODIGY_FS_03.git
+   ```
+   ```
    cd PRODIGY_FS_03
-Install dependencies:
-
-bash
-Copy
-Edit
+   ```
+2. **Install dependencies:**
+```
 npm install
-Configure environment variables:
-Create a .env file:
+```
+3. **Configure environment variables:**
 
-ini
-Copy
-Edit
+Create a `.env` file:
+
+```
 MONGODB_URI=mongodb://localhost:27017/prodigy_store
 PORT=3000
-▶️ Running the App
-Start MongoDB (e.g., mongod)
+```
 
-Seed initial product data (optional):
+## ▶️ Running the App
+1. Start MongoDB (e.g., `mongod`)
 
-bash
-Copy
-Edit
-node backend/seed.js
-Start the server:
+2. Start the server:
 
-bash
-Copy
-Edit
+```
 npm start
+```
 Open in browser: http://localhost:3000
 
-📂 Folder Structure
-bash
-Copy
-Edit
+## 📂 Folder Structure
+```
 PRODIGY_FS_03/
-├─ backend/         # Express server & MongoDB models
-├─ ui/              # Static frontend files
-├─ .env             # Config variables
+├─ images/
+├─ screenshots/
+├─ cart.html
+├─ index.html
+├─ README.md
+├─ script.js
+├─ settings.json
 ├─ package.json
-└─ README.md
-🛠️ Future Enhancements
+└─ style.css
+```
+## 🛠️ Future Enhancements
 Integrate a payment gateway (Stripe/PayPal)
 
 Add user authentication + order history
@@ -100,5 +97,5 @@ Enhance UI with a CSS framework (Bootstrap/Tailwind)
 
 Add order confirmation emails via NodeMailer
 
-👨‍💻 Author
-Asish Shaw
+## 👨‍💻 Author
+**Asish Shaw**
