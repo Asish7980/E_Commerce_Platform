@@ -78,6 +78,7 @@ Open in browser: http://localhost:3000
 PRODIGY_FS_03/
 ├─ images/
 ├─ screenshots/
+├─ LICENSE
 ├─ cart.html
 ├─ index.html
 ├─ README.md
