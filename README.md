@@ -1,4 +1,4 @@
-# Local Store E‑Commerce Platform
+# 🛍️🛒 Local Store E‑Commerce Platform
  
 A full-featured e-commerce site for a local merchant with product browsing, cart & checkout capabilities, and MongoDB support.
 
